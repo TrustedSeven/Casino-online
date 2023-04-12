@@ -4,12 +4,13 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from '@mui/material/Button';
 
 import './header.css'
+import logo from '../assets/logo.jpg'
 
 function Header() {
   return (
     <>
       <div className="inline header-lay row">
-        <div className="col-md-2 mid">logo</div>
+        <div className="col-md-2 mid"><img className="logo" src={logo}/></div>
         <div className="col-md-8 mid">
           <Navbar>
             <Container>
