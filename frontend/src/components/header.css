@@ -27,3 +27,6 @@
     width: 5vw;
     height: 8vh;
 }
+.row{
+    --bs-gutter-x: 0;
+}
